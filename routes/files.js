@@ -9,4 +9,9 @@ let storage = multer.diskStorage({
     }
 });
 
+let upload = multer({
+    storage: storage,
+    limit: { filesize: 100 * 1000 * 1000}
+}).single('myfile');
+
 module.exports = router;
