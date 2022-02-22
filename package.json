@@ -4,5 +4,8 @@
   "description": "A file sharing Web Application",
   "main": "index.js",
   "repository": "https://github.com/coderSitun/FileSharingApp",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
