@@ -14,4 +14,11 @@ let upload = multer({
     limit: { filesize: 100 * 1000 * 1000}
 }).single('myfile');
 
+router.post('/', (req, res) => {
+    //Validate Request
+    if(!req.file){
+        return res.json({error: 'All fields are required!'});
+    }
+});
+
 module.exports = router;
