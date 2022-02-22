@@ -1,0 +1,8 @@
+{
+  "name": "file-sharing-app",
+  "version": "1.0.0",
+  "description": "A file sharing Web Application",
+  "main": "index.js",
+  "repository": "https://github.com/coderSitun/FileSharingApp",
+  "license": "MIT"
+}
