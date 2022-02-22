@@ -1,3 +1,5 @@
+global.TextEncoder = require("util").TextEncoder; global.TextDecoder = require("util").TextDecoder;
+
 const express = require('express');
 const app = express();
 
